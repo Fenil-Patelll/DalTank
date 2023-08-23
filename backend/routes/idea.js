@@ -10,7 +10,7 @@ router.use(express.json());
 router.use(cors());
 router.use(express.urlencoded({ extended: true }));
 mongoose
-  .connect("mongodb+srv://tr335214:root@cluster0.zxzknl9.mongodb.net/Web", {
+  .connect("", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
